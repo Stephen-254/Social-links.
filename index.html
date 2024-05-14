@@ -8,8 +8,47 @@
   
   <title>Frontend Mentor | Social links profile</title>
   <style>
-   body{
-    margin: auto;
+    *{
+      color: white;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    body{
+      background-color: hsl(0, 0%, 8%);
+      margin-top: 10em;
+    }
+    #card{
+      text-align: center;
+      background-color: hsl(0, 0%, 12%);
+      min-width: 450px;
+      min-height: 780px;
+      border-radius: 20px;
+      padding-top: 30px;
+    }
+   body, article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+   section h1{
+    color: hsl(75, 94%, 57%);
+   }
+   img{
+    border-radius: 50%;
+   }
+   button{
+    height: 50px;
+    width: 300px;
+    color: whitesmoke;
+    margin-top: 30px;
+    border-radius: 13px;
+    background-color: hsl(0, 0%, 20%);
+    border: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   }
+   button:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
    }
   </style>
 </head>
@@ -19,18 +58,15 @@
   <figure>
     <img src="assets/images/avatar-jessica.jpeg" alt="A black woman with an Afro hair" height="100" width="100">
   </figure>
-
   <!--Name and location information-->
   <section>
     <header>Jessica Randall</header>
     <h1>London, United Kingdom</h1>
   </section>
-
   <!--About Jessica-->
   <article>
     <p>"Front end developer and avide reader"</p>
   </article>
-
   <!--Socail links section-->
   <section>
     <article>
@@ -42,6 +78,5 @@
     </article>
   </section>
 </main>
-  
 </body>
 </html>
